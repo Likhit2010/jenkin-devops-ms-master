@@ -51,7 +51,7 @@ pipeline {
 
 		stage('Build Docker Image') {
 			steps {
-				"docker build -t Likhit2010/jenkin-devops-ms-master:$env.BUILD_TAG"
+				'docker build -t Likhit2010/jenkin-devops-ms-master:$env.BUILD_TAG'
 				//script {
 				//	dockerImage = docker.build('Likhit2010/jenkin-devops-ms-master:${env.BUILD_TAG}')
 				//}
