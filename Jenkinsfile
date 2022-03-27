@@ -55,7 +55,6 @@ pipeline {
 				script {
 					dockerImage = docker.build("Likhit2010/jenkin-devops-ms-master:${env.BUILD_TAG}")
 				}
-
 			}
 		}
 
