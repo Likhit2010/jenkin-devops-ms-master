@@ -168,6 +168,7 @@
 					<!-- JDK 8 - bytecode verifier cannot be relaxed or disabled -->
 					<!-- to prevent runtime errors, OpenJPA tests are ignored -->
 					<argLine>${jacoco.utAgentConfig}</argLine>
+					 <forkCount>0</forkCount>
 					<excludes>
 						<!--<exclude>**/*ApplicationTests.java</exclude> -->
 						<exclude>**/RunCucumberIntegrationTestCase.java</exclude>
